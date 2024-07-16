@@ -18,6 +18,8 @@ public class App {
         frame.add(flappyBird);
         frame.pack();  // just to keep the bg  -within the frame dimenson
         frame.setVisible(true);
+        flappyBird.requestFocus();
+        
 
     }
-}
+}                       
